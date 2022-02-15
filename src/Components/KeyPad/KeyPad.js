@@ -1,8 +1,9 @@
 import React from "react";
 
 import "./KeyPad.css";
-
+//function for keypad component
 function KeyPad(props) {
+    // keycode for numbers,operators
   const keys = [
     {
         keyCode:46,
@@ -98,6 +99,7 @@ function KeyPad(props) {
 
   return (
     <div className="keypad">
+{/* mapping of keys pressed from keypad and handled click via props */}
       <div className="keypad_keys">
         {keys.map((item, index) => (
           <p

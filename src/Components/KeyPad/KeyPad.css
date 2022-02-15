@@ -1,4 +1,4 @@
-
+/* keypad styles */
 .keypad {
     flex: 1.3;
     background-color: var(--bg-color-2);
@@ -17,7 +17,7 @@
     cursor: pointer;
     color: var(--text-color-2);
   }
-  
+  /* styles for keypad numbers */
   .keypad_keys p:active {
     background-color: rgba(0, 0, 0, 0.14);
   }
@@ -36,6 +36,7 @@
   .keypad_symbols {
     flex: 1;
   }
+  /* keypad operators style */
   
   .keypad_symbols p {
     color: #89a5f1;

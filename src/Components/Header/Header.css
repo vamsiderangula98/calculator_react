@@ -12,7 +12,7 @@
     display: flex;
     justify-content: flex-end;
   }
-  
+  /* display input styles */
   .header_expression {
     overflow-x: scroll;
     width: 100%;
@@ -25,7 +25,7 @@
     width: fit-content;
     font-weight: bold;
   }
-  
+  /* display results style */
   .header_result {
     font-weight: bold;
     font-size: 1.3rem !important;

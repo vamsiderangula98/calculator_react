@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
 
 import "./Header.css";
-
+//function for header component
 function Header(props) {
   const resultRef = useRef();
   const expressionRef = useRef();
-
+// for focusing on input we give
   useEffect(() => {
     resultRef.current.scrollIntoView();
   }, [props.history]);
